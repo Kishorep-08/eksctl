@@ -7,4 +7,3 @@ managedNodeGroups:
 - name: roboshop-nodes
   desiredCapacity: 3  # This is 3 by default
   instanceTypes: ["m5.large", "t3.large", "t3.small", "c5.large"]
-  spot: true
